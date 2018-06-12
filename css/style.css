@@ -45,6 +45,15 @@ a:focus span
 }
 
 
+  .btn {
+      padding: 2px 2px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+  }
+
+
 .button {
     padding: 15px 32px;
     text-align: center;
