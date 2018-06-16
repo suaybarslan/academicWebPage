@@ -708,6 +708,43 @@ World Wide Web, and relational databases</span>
 
 <pro id="bibtex" style="display:none;">
 
+  @incollection{vergari2018tpm,
+    Anote = {./images/vergari2018tpm.png},
+    Author = {Antonio Vergari and Alejandro Molina and Robert Peharz and Zoubin Ghahramani and Kristian Kersting and Isabel Valera},
+    Booktitle = {Working Notes of the ICML 2018 Workshop on Tractable Probabilistic Models (TPM)},
+    Note = {Making sense of a dataset in an automatic, unsupervised fashion is a challenging problem in statistics
+      and AI. For example, classical approaches for density estimation do not naturally deal with heterogeneous
+      statistical data types, do not automatically select suitable parametric forms for the likelihood models, and,
+      in basic formulations, are sensitive to corrupted data and outliers. To overcome this, we propose to extend
+      density estimation to Automatic Bayesian Density Analysis (ABDA), casting both data modeling and selection of adequate likelihood models (statistical data types) into a joint inference problem. Specifically, we advocate a hierarchically structured mixture model, which explicitly incorporates arbitrarily rich collections of likelihood models and corresponding latent selection variables, and captures variable interactions by a latent hierarchical structure obtained from data-type agnostic structure learning. To account for prediction uncertainty, selection of parametric likelihood models and
+      statistical data types, we employ Bayesian inference over a model formulated as a sum-product network,
+      naturally providing the aforementioned expressiveness and flexibility, while facilitating exact and tractable
+      inference.},
+      Keywords = {Sum-Product Networks, Deep Learning, Automatic Statistician, Density Estimation, Density Analysis, AutoML},
+    Pages = {},
+    Title = {Automatic Bayesian Density Analysis},
+    Url = {},
+    Year = {2018}}
+
+
+  @incollection{sommer2018tpm,
+    Anote = {./images/sommer2018tpm.png},
+    Author = {Lukas Sommer and Julian Oppermann and Alejandro Molina and Carsten Binnig and Kristian Kersting and Andreas Koch},
+    Booktitle = {Working Notes of the ICML 2018 Workshop on Tractable Probabilistic Models (TPM)},
+    Note = {FPGAs have recently proven to be ideally suited for the implementation of efficient accelerators for a wide
+      range of machine learning tasks. Here, we consider probabilistic models, specifically, (Mixed) Sum-Product Networks
+      (SPN), a deep architecture that can provide tractable inference for multivariate distributions over mixed data-sources.
+We show how to construct an FPGA-based accelerator for the inference in (mixed) SPNs. Starting from an input description of
+the network, we develop a fully automatic synthesis flow to a custom FPGA-accelerator. The synthesized accelerator and its
+interface to the external memory on the FPGA are fully pipelined, and computations are conducted using double-precision floating
+point arithmetic.  To the best of our knowledge, this work is the first approach to offload the (mixed) SPN inference problem to FPGA-based
+accelerators. Our evaluation shows that the SPN inference problem can profit from offloading to an FPGA accelerator.},
+      Keywords = {FPGA, Sum-Product Networks, Deep Learning, Hardware implementation },
+    Pages = {},
+    Title = {Automatic Synthesis of FPGA-based Accelerators for the Sum-Product Network Inference Problem},
+    Url = {},
+    Year = {2018}}
+
   @inproceedings{kordjamshidi2018ijcaiecai_systemsai,
     Anote = {./images/kordjamshidi2018ijcaiecai_systemsai.png},
     Author = {Parisa Kordjamshidi and Dan Roth and Kristian Kersting},
@@ -1039,7 +1076,7 @@ of simple primitives.},
 
       @inproceedings{vergari2018aaai_spae,
         Anote = {./images/vergari2018aaai_spae.png},
-        Booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+        Booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI); also in the Working Notes of the ICML 2018 Workshop on Tractable Probabilistic Models (TPM)},
         Keywords = {Auto Encoder, MPE, Deep Learning, Sum Product Networks, Graphical Models, Generative Model, Embedding},
         Author = {Antonio Vergari and Robert Peharz and Nicola Di Mauro and Alejandro  Molina and Kristian Kersting and Floriana Esposito},
         Note = {Sum-Product Networks (SPNs) are a deep probabilistic architecture that up to now has been successfully
@@ -4672,7 +4709,7 @@ of Israel, Alexander von Humboldt-Stiftung, Carl-Zeiss-Stiftung, The Royal Socie
 
 </TR>
 
-<TR> 
+<TR>
 
 <TD><img src="./images/patrickSchramowski.png" class="img-circle imgme" style="height:100px"></TD>
 <TD><span class="t2what">  Patrick Schramowski <br><span class="t2where"> currently</span></span></TD>
